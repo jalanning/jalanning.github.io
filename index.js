@@ -1,5 +1,29 @@
 const pageTextAndPic = [
-    ["Obviously, your love for reading (and reality TV). \n \n Aren't you glad I love you enough to notice and care about these things, and not just how healthy you encourage the kids to be?",'https://img.freepik.com/premium-photo/furious-angry-black-man-ginger-woman-have-dispute-yell-loudly-each-other-different-point-views_580432-236.jpg?w=400']
+    ["First and foremost, (this is a book afterall) your love for reading (and reality TV). \n \n Aren't you glad I love you enough to notice and care about these things, and not just how healthy you encourage the kids to be?",'https://img.freepik.com/premium-photo/furious-angry-black-man-ginger-woman-have-dispute-yell-loudly-each-other-different-point-views_580432-236.jpg?w=400'],
+    ["You are an incredible chef and fellow pig. I love going to restuarants with you, cooking with you, no matter where we are, everything tastes better when I'm with you. Everyday I am grateful for your willingness to eat vegan with me. Nothing beats your chana masala!","https://thumbs.dreamstime.com/b/bowl-authentic-channa-masala-indian-cuisine-homemade-traditional-chole-chickpea-curry-famous-recipes-129894856.jpg"],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""]
   ];
   
 const pagesElement = document.getElementById("pages");
