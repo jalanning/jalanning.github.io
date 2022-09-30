@@ -1,22 +1,33 @@
-const pageText = [
-    "Obviously, your love for reading (and reality TV). \n \n Aren't you glad I love you enough to notice and care about these things, and not just how healthy you encourage the kids to be?",
+const pageTextAndPic = [
+    ["Obviously, your love for reading (and reality TV). \n \n Aren't you glad I love you enough to notice and care about these things, and not just how healthy you encourage the kids to be?",'https://img.freepik.com/premium-photo/furious-angry-black-man-ginger-woman-have-dispute-yell-loudly-each-other-different-point-views_580432-236.jpg?w=400']
   ];
   
 const pagesElement = document.getElementById("pages");
   
-pageText.forEach((content, ix) => {
+pageTextAndPic.forEach(([content, src], ix) => {
+    // left page
+
     let numPage = document.createElement('div')
     numPage.setAttribute('class', 'page')
+    // the number
     let num = document.createElement('p')
     num.innerText = `${ix + 1}.`
     numPage.appendChild(num)
+    // the image
+    let pic = document.createElement('img')
+    pic.setAttribute('src', src)
+    numPage.appendChild(pic)
+    // add to pages
     pagesElement.appendChild(numPage)
 
+    //right page
     let contentPage = document.createElement('div')
     contentPage.setAttribute('class', 'page')
+    // the text
     let text = document.createElement('p')
     text.innerText = content
     contentPage.appendChild(text)
+    // add to pages
     pagesElement.appendChild(contentPage)
 });
 
